@@ -5,11 +5,6 @@
 ### Create an App
 
 ```
-# with npx
-$ npx create-nextron-app my-app --example with-tailwindcss
-
-# with yarn
-$ yarn create nextron-app my-app --example with-tailwindcss
 
 # with pnpm
 $ pnpm dlx create-nextron-app my-app --example with-tailwindcss
@@ -20,9 +15,6 @@ $ pnpm dlx create-nextron-app my-app --example with-tailwindcss
 ```
 $ cd my-app
 
-# using yarn or npm
-$ yarn (or `npm install`)
-
 # using pnpm
 $ pnpm install --shamefully-hoist
 ```
@@ -31,8 +23,8 @@ $ pnpm install --shamefully-hoist
 
 ```
 # development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
+$ pnpm run dev
 
 # production build
-$ yarn build (or `npm run build` or `pnpm run build`)
+$ `pnpm run build
 ```
